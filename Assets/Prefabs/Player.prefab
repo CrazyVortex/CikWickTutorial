@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 6133213409828617279}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,7 +210,7 @@ Transform:
   m_GameObject: {fileID: 6582540278445409148}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9, z: 0}
+  m_LocalPosition: {x: 2.5098286, y: 0.24999999, z: 1.0633837}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   ground: {fileID: 4142903957332320604}
   distance: 0.3
-  speed: 5
+  speed: 7
   jumpHeight: 5
   gravity: -9.8
   mask:
