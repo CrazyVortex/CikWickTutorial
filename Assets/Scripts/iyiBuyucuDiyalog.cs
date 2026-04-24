@@ -3,38 +3,37 @@ using TMPro;
 
 public class iyiBuyucuDiyalog : MonoBehaviour
 {
-    public Transform karakter;
     public TextMeshProUGUI diyalogMetni;
-    public float konusmaMesafesi = 5f;
-    private bool konusmaYapildi = false;
+    [TextArea(3, 10)]
+    public string mesaj = "Elenor güçlenmek için çocukları kaçırıp kapıların ardına hapsetti. Lütfen onları kurtar!";
 
     void Start()
     {
-        // Oyun başında yazı mutlaka kapalı olsun
+        // Oyun başında yazı kutusunu tamamen gizle
         if (diyalogMetni != null)
         {
             diyalogMetni.gameObject.SetActive(false);
+            diyalogMetni.text = ""; // İçini de boşaltalım garanti olsun
         }
     }
 
-    void Update()
+    // Yeşil kutunun içine girince çalışır
+    private void OnTriggerEnter(Collider other)
     {
-        if (karakter != null && diyalogMetni != null && !konusmaYapildi)
+        if (other.CompareTag("Player"))
         {
-            float mesafe = Vector3.Distance(transform.position, karakter.position);
-
-            if (mesafe <= konusmaMesafesi)
-            {
-                Konus();
-            }
+            diyalogMetni.gameObject.SetActive(true); // Kutuyu aç
+            diyalogMetni.text = mesaj; // Mesajı yaz
         }
     }
 
-    void Konus()
+    // Yeşil kutunun dışına çıkınca çalışır
+    private void OnTriggerExit(Collider other)
     {
-        diyalogMetni.gameObject.SetActive(true); // Yazıyı görünür yapar
-        diyalogMetni.text = "Elenor gençleşmek için çocukları kaçırıp kapıların ardına hapsetti. Lütfen onları kurtar!";
-        konusmaYapildi = true;
-        Debug.Log("Diyalog ekrana basıldı!");
+        if (other.CompareTag("Player"))
+        {
+            diyalogMetni.text = ""; // Önce metni sil
+            diyalogMetni.gameObject.SetActive(false); // Sonra kutuyu kapat
+        }
     }
 }
