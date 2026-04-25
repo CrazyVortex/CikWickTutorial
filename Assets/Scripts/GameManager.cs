@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         else
         {
             StopAllCoroutines();
-            StartCoroutine(FinishLevel());
+            //StartCoroutine(FinishLevel());
         }
 
     }
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    IEnumerator ShowBriefMessage(string message) //kısa mesaj
+    public IEnumerator ShowBriefMessage(string message) //kısa mesaj
     {
         bilgiMetni.text = message; //mesajı yaz
         bilgiMetni.gameObject.SetActive(true); //görünür olsun
