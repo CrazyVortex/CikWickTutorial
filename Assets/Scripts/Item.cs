@@ -16,26 +16,27 @@ public class Item : MonoBehaviour
 
     void Collect()
     {
-        GameManager gm = Object.FindAnyObjectByType<GameManager>();
-
-        if (gm != null)
+        // ÖNEMLİ: Statik listeye gm.toplananIDler yerine doğrudan GameManager.toplananIDler ile erişiyoruz
+        if (!GameManager.toplananIDler.Contains(itemID))
         {
-            // GameManager'daki listeye bakıyoruz
-            if (!gm.toplananIDler.Contains(itemID))
+            if (ses != null)
             {
-                if (ses != null)
-                {
-                    AudioSource.PlayClipAtPoint(ses.clip, transform.position);
-                }
+                AudioSource.PlayClipAtPoint(ses.clip, transform.position);
+            }
 
-                gm.ObjectCollected(itemID); 
-                Destroy(gameObject);
-            }
-            else
+            // GameManager fonksiyonunu çağırmak için sahnede GameManager'ı buluyoruz
+            GameManager gm = Object.FindAnyObjectByType<GameManager>();
+            if (gm != null)
             {
-                // Zaten alındıysa puan vermeden yok et
-                Destroy(gameObject);
+                gm.ObjectCollected(itemID);
             }
+
+            Destroy(gameObject);
+        }
+        else
+        {
+            // Eğer bu ID zaten listede varsa, sadece nesneyi sil (sayacı artırma)
+            Destroy(gameObject);
         }
     }
 }

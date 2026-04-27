@@ -437,7 +437,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -577,7 +577,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   bilgiMetni: {fileID: 13551861}
   toplananCezaNesnesi: 0
-  toplananIDler: []
 --- !u!4 &103642195
 Transform:
   m_ObjectHideFlags: 0
@@ -743,7 +742,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1052,7 +1051,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1200,7 +1199,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1225,7 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &245841950 stripped
 GameObject:
@@ -1904,7 +1903,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2253,7 +2252,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3172,7 +3171,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3241,7 +3240,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3537,7 +3536,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3562,7 +3561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &802209320
 GameObject:
@@ -3964,7 +3963,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4147,7 +4146,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4275,7 +4274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 2
 --- !u!195 &980981667
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4286,7 +4285,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4311,7 +4310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &997201437 stripped
 GameObject:
@@ -4453,7 +4452,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4615,7 +4614,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5001,7 +5000,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5467,7 +5466,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5965,7 +5964,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6139,7 +6138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 2
 --- !u!195 &1356673612
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6150,7 +6149,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6175,7 +6174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &1360065033 stripped
 GameObject:
@@ -6677,7 +6676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 2
 --- !u!195 &1479119590
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6688,7 +6687,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6713,7 +6712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &1536610394 stripped
 GameObject:
@@ -6772,7 +6771,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7140,7 +7139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 2
 --- !u!195 &1635405052
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7151,7 +7150,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7176,7 +7175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &1636398091 stripped
 GameObject:
@@ -7256,7 +7255,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7750,7 +7749,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7775,7 +7774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1001 &1796538843
 PrefabInstance:
@@ -7906,7 +7905,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8184,7 +8183,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8264,6 +8263,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7382688295791899049, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7382688295791899049, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7382688295791899049, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882647804280562147, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882647804280562147, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882647804280562147, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8327,7 +8350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 2
 --- !u!195 &1897363495
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8338,7 +8361,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8363,7 +8386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1001 &1961038628
 PrefabInstance:
@@ -8741,7 +8764,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9216,15 +9239,15 @@ SceneRoots:
   - {fileID: 619877412}
   - {fileID: 372671041}
   - {fileID: 143749703}
+  - {fileID: 1085591751}
+  - {fileID: 1852275416}
+  - {fileID: 120908236}
   - {fileID: 650181221}
   - {fileID: 1539372987}
   - {fileID: 1284199525}
   - {fileID: 1177092943}
   - {fileID: 1164383069}
-  - {fileID: 1085591751}
-  - {fileID: 1852275416}
   - {fileID: 261468006}
-  - {fileID: 120908236}
   - {fileID: 1617620139}
   - {fileID: 1064394036}
   - {fileID: 147453753}

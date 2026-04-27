@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public int toplananCezaNesnesi;
 
     // Listenin adı Item koduyla aynı: toplananIDler
-    public List<string> toplananIDler = new List<string>();
+    public static List<string> toplananIDler = new List<string>();
 
     void Start()
     {
