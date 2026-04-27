@@ -1,16 +1,18 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic; 
 
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI bilgiMetni;
     public int toplananCezaNesnesi;
 
+    // Listenin adı Item koduyla aynı: toplananIDler
+    public List<string> toplananIDler = new List<string>();
+
     void Start()
     {
-        // 1. ADIM: Oyun açıldığında hafızaya bak. "CezaNesnesi" diye bir kayıt var mı? 
-        // Varsa onu getir, yoksa 0'dan başla.
         toplananCezaNesnesi = PlayerPrefs.GetInt("CezaNesnesi", 0);
         
         if (bilgiMetni != null)
@@ -20,16 +22,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ObjectCollected()
+    public void ObjectCollected(string id)
     {
-        // 2. ADIM: Nesne toplandığında sayıyı artır.
-        toplananCezaNesnesi++;
-
-        // 3. ADIM: Yeni sayıyı hemen hafızaya (PlayerPrefs) "CezaNesnesi" etiketiyle yaz.
-        PlayerPrefs.SetInt("CezaNesnesi", toplananCezaNesnesi);
-        
-        StopAllCoroutines();
-        StartCoroutine(ShowBriefMessage(toplananCezaNesnesi + " / 3 nesne toplandı!"));
+        if (!toplananIDler.Contains(id))
+        {
+            toplananIDler.Add(id);
+            toplananCezaNesnesi++;
+            PlayerPrefs.SetInt("CezaNesnesi", toplananCezaNesnesi);
+            
+            StopAllCoroutines();
+            StartCoroutine(ShowBriefMessage(toplananCezaNesnesi + " / 3 nesne toplandı!"));
+        }
     }
 
     public IEnumerator ShowBriefMessage(string message)
