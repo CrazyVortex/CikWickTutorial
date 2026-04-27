@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &66179520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &66179521
 NavMeshAgent:
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &109236914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,7 +742,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &162471992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &162471993
 NavMeshAgent:
@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &232308479
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1199,7 +1199,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1877,7 +1877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &360278707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1891,7 +1891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &360278708
 NavMeshAgent:
@@ -2226,7 +2226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &431441547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2240,7 +2240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &431441548
 NavMeshAgent:
@@ -3139,7 +3139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!65 &661789014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3171,7 +3171,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3214,7 +3214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &705832868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3228,7 +3228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &705832869
 NavMeshAgent:
@@ -3525,7 +3525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &785111759
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3536,7 +3536,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &872007246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3951,7 +3951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &872007247
 NavMeshAgent:
@@ -4114,7 +4114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!65 &879961266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4146,7 +4146,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4274,7 +4274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &980981667
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4285,7 +4285,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4420,7 +4420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!65 &1037470140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4452,7 +4452,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4588,7 +4588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1053840072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4614,7 +4614,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4974,7 +4974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1157544901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4988,7 +4988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &1157544902
 NavMeshAgent:
@@ -5440,7 +5440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1229830107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5454,7 +5454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &1229830108
 NavMeshAgent:
@@ -5938,7 +5938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1338556327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5952,7 +5952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &1338556328
 NavMeshAgent:
@@ -6138,7 +6138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &1356673612
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6149,7 +6149,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6676,7 +6676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &1479119590
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6687,7 +6687,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6745,7 +6745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1536610399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6759,7 +6759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &1536610400
 NavMeshAgent:
@@ -7139,7 +7139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &1635405052
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7150,7 +7150,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7223,7 +7223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!65 &1636398095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7255,7 +7255,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7738,7 +7738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &1774695190
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7749,7 +7749,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7879,7 +7879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1796632448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7893,7 +7893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 50
   saldiriMesafesi: 4
 --- !u!195 &1796632449
 NavMeshAgent:
@@ -8157,7 +8157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!114 &1856875229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8183,7 +8183,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8350,7 +8350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 2
+  can: 3
 --- !u!195 &1897363495
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8361,7 +8361,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8732,7 +8732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d2b950e8a0aa3498a9e544ade98ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarCani
-  can: 3
+  can: 4
 --- !u!65 &2014189774
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8764,7 +8764,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 4.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9241,13 +9241,13 @@ SceneRoots:
   - {fileID: 143749703}
   - {fileID: 1085591751}
   - {fileID: 1852275416}
-  - {fileID: 120908236}
   - {fileID: 650181221}
   - {fileID: 1539372987}
   - {fileID: 1284199525}
   - {fileID: 1177092943}
   - {fileID: 1164383069}
   - {fileID: 261468006}
+  - {fileID: 120908236}
   - {fileID: 1617620139}
   - {fileID: 1064394036}
   - {fileID: 147453753}

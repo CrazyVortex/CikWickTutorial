@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    public Camera fpsCam;           // Karakterin kamerası
-    public Transform firePoint;     // Oluşturduğun FirePoint
-    public float range = 100f;      // Menzil
-    public AudioSource shotSound;   // Ateş sesi
+    public Camera fpsCam;           
+    public Transform firePoint;     
+    public float range = 100f;      
+    public AudioSource shotSound;   
+    public int hasarGucu = 1; // Her atışta kaç can gitsin?
 
     void Update()
     {
-        // Sol tık basıldığında
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
@@ -18,16 +18,24 @@ public class WeaponController : MonoBehaviour
 
     void Shoot()
     {
-        // Sesi çal
         if(shotSound != null) shotSound.Play();
 
-        // Raycast (Işın) fırlat
         RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        // Işını kameranın biraz önünden başlatıyoruz (Dibine girenleri vurabilmek için)
+        Vector3 rayOrigin = fpsCam.transform.position + fpsCam.transform.forward * 0.2f;
+
+        if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name + " objesini vurdun!");
             
-            // İLERİDE: Buraya vurduğun şeyin canını azaltma kodu gelecek.
+            // --- CANAVARA HASAR VERME KISMI BURASI ---
+            CanavarCani canavar = hit.transform.GetComponent<CanavarCani>();
+            
+            if (canavar != null)
+            {
+                canavar.HasarAl(hasarGucu);
+            }
+            // -----------------------------------------
         }
     }
 }
