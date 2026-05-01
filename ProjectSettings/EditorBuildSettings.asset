@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OYUN/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/OYUN/Scenes/CezaBolgesi.unity
     guid: 0479ada9925fa474394af03b58ba6a38
   - enabled: 1
@@ -20,8 +20,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RedPortal_Level.unity
     guid: ac7c0ac6163006743bc58f6f1b2f4e05
-  - enabled: 1
-    path: Assets/Scenes/CezaBolgesi.unity
-    guid: 0a52c9c377b7dd8478f3cd6e7dd99a7e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
