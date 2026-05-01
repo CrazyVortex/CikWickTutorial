@@ -730,7 +730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!195 &109236915
 NavMeshAgent:
@@ -2195,6 +2195,7 @@ MonoBehaviour:
   yaklasmaMesafesi: 5
   parlamaEfekti: {fileID: 1652573161}
   kurtarmaSesi: {fileID: 374426071}
+  cocukID: ChidMavi
 --- !u!1 &431441542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 174418, guid: 36c38a65d57de7d4a9a582f9ee857701, type: 3}
@@ -3125,7 +3126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &661789013
 MonoBehaviour:
@@ -4086,7 +4087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &879961264
 MonoBehaviour:
@@ -4392,7 +4393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &1037470138
 MonoBehaviour:
@@ -4602,7 +4603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!195 &1053840073
 NavMeshAgent:
@@ -6952,6 +6953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boy1
       objectReference: {fileID: 0}
+    - target: {fileID: 4831751270801450882, guid: 2e1c80361c3a23d4b8c7edc15e837913, type: 3}
+      propertyPath: m_TagString
+      value: ChildMavi
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -7195,7 +7200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &1636398093
 MonoBehaviour:
@@ -8171,7 +8176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 0}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!195 &1856875230
 NavMeshAgent:
@@ -8704,7 +8709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
   hedef: {fileID: 1433281366}
-  takipMesafesi: 60
+  takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &2014189772
 MonoBehaviour:

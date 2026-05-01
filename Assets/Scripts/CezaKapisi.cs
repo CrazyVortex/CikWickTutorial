@@ -4,26 +4,55 @@ using System.Collections;
 
 public class CezaKapisi : MonoBehaviour
 {
-    public int gerekenNesne = 3;
-    public string kasabaSahneAdi = "SampleScene"; // Buraya kasaba sahnenin adını yaz
+    [Header("Gereksinimler")]
+    public int gerekenNesne = 3; // Toplam 3 nesne lazım
+    public int gerekenCocuk = 3; // Toplam 3 çocuk lazım
+
+    [Header("Sahne ve Ses")]
+    public string kasabaSahneAdi = "SampleScene"; 
     public AudioSource cikisMuzigi;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            // 4. ADIM: Kapı, hafızadaki (PlayerPrefs) güncel sayıyı kontrol ediyor.
-            int miktar = PlayerPrefs.GetInt("CezaNesnesi", 0);
+            // Hafızadaki güncel skorları çekiyoruz
+            int toplananNesne = PlayerPrefs.GetInt("CezaNesnesi", 0);
+            int kurtarilanCocuk = PlayerPrefs.GetInt("KurtarilanCocuk", 0);
+            
             GameManager gm = FindObjectOfType<GameManager>();
 
-            if (miktar >= gerekenNesne)
+            // Eğer hem nesneler hem çocuklar tamamsa (3 ve 3)
+            if (toplananNesne >= gerekenNesne && kurtarilanCocuk >= gerekenCocuk)
             {
                 StartCoroutine(BasariVeIsinlanma());
             }
             else
             {
-                int eksik = gerekenNesne - miktar;
-                if(gm != null) gm.StartCoroutine(gm.ShowBriefMessage("Bu mühürlü bir kapı! " + eksik + " nesne daha bulmalısın."));
+                int eksikNesne = gerekenNesne - toplananNesne;
+                int eksikCocuk = gerekenCocuk - kurtarilanCocuk;
+                
+                string mesaj = "Bu mühürlü bir kapı! ";
+                
+                // Mesaj kurgusunu senin istediğin "ve" bağlacına göre düzelttim
+                if (eksikNesne > 0 && eksikCocuk > 0)
+                {
+                    mesaj += eksikNesne + " nesne ve " + eksikCocuk + " çocuk daha bulmalısın.";
+                }
+                else if (eksikNesne > 0)
+                {
+                    mesaj += eksikNesne + " nesne daha bulmalısın.";
+                }
+                else if (eksikCocuk > 0)
+                {
+                    mesaj += eksikCocuk + " çocuk daha kurtarmalısın.";
+                }
+
+                if(gm != null) 
+                {
+                    gm.StopAllCoroutines();
+                    gm.StartCoroutine(gm.ShowBriefMessage(mesaj));
+                }
             }
         }
     }
@@ -31,14 +60,21 @@ public class CezaKapisi : MonoBehaviour
     IEnumerator BasariVeIsinlanma()
     {
         GameManager gm = FindObjectOfType<GameManager>();
-        if(gm != null) gm.StartCoroutine(gm.ShowBriefMessage("Başardın! Kasabaya dönüyorsun!"));
+        if(gm != null) 
+        {
+            gm.StopAllCoroutines();
+            gm.StartCoroutine(gm.ShowBriefMessage("Mühür çözüldü! Kasabaya dönüyorsun!"));
+        }
         
         if (cikisMuzigi != null) cikisMuzigi.Play();
         
         yield return new WaitForSeconds(2.5f);
 
-        // 5. ADIM: Kasabaya giderken hafızayı temizliyoruz ki bir dahaki oyunda 0'dan başlasın.
+        // Kasabaya dönerken her şeyi tertemiz yapıyoruz
         PlayerPrefs.DeleteKey("CezaNesnesi");
-        SceneManager.LoadScene("SampleScene");
+        PlayerPrefs.DeleteKey("KurtarilanCocuk");
+        GameManager.toplananIDler.Clear();
+        
+        SceneManager.LoadScene(kasabaSahneAdi);
     }
 }

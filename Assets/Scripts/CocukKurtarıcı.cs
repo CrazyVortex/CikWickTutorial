@@ -3,16 +3,20 @@ using System.Collections;
 
 public class CocukKurtarici : MonoBehaviour
 {
+    [Header("Mesafe ve Görsel")]
     public float yaklasmaMesafesi = 3f; 
     public GameObject parlamaEfekti;    
     public AudioSource kurtarmaSesi;   
+    
+    [Header("Gorev Ayari")]
+    public string cocukID; // Inspector'dan: ChildMavi, ChildKirmizi vb.
+
     private bool kurtarildi = false;
 
     void Update()
     {
         if (kurtarildi) return;
 
-        // Oyuncu etiketini kontrol et (Hata vermemesi için)
         GameObject player = GameObject.FindWithTag("Player");
         if (player == null) return;
 
@@ -28,36 +32,37 @@ public class CocukKurtarici : MonoBehaviour
     {
         kurtarildi = true;
 
-        // 1. Işığı/Efekti Yak (Kodun en başında yapıyoruz ki hemen görünsün)
-        if (parlamaEfekti != null) 
-        {
-            parlamaEfekti.SetActive(true);
-            
-            // Işık çok sönükse diye şiddetini kodla artırıyoruz
-            Light isik = parlamaEfekti.GetComponent<Light>();
-            if (isik != null) isik.intensity = 50f; 
-        }
-
-        // 2. Ses Çıkar
+        if (parlamaEfekti != null) parlamaEfekti.SetActive(false);
         if (kurtarmaSesi != null) kurtarmaSesi.Play();
 
-        // 3. Ekranda Yazı Yaz
         GameManager gm = FindObjectOfType<GameManager>();
         if (gm != null)
         {
-            gm.StartCoroutine(gm.ShowBriefMessage("Çocuğu Kurtardın!"));
+            // Statik listede yoksa (ilk defa kurtarılıyorsa)
+            if (!GameManager.toplananIDler.Contains(cocukID))
+            {
+                GameManager.toplananIDler.Add(cocukID);
+                
+                // Çocuk hafızasını güncelle
+                int mevcutCocuk = PlayerPrefs.GetInt("KurtarilanCocuk", 0);
+                mevcutCocuk++;
+                PlayerPrefs.SetInt("KurtarilanCocuk", mevcutCocuk);
+                PlayerPrefs.Save();
+
+                gm.StopAllCoroutines();
+                gm.StartCoroutine(gm.ShowBriefMessage("Çocuk Kurtarıldı!"));
+            }
         }
 
-        // 4. Süzülme Efekti
+        // Süzülme animasyonu
         float sayac = 0;
-        while (sayac < 1.5f) // Biraz daha uzun süzülsün
+        while (sayac < 1.5f) 
         {
             transform.Translate(Vector3.up * Time.deltaTime * 1.5f);
             sayac += Time.deltaTime;
             yield return null;
         }
 
-        // 5. Çocuğu Kaybet
         gameObject.SetActive(false); 
     }
 }

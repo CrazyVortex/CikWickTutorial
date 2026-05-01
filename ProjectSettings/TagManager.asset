@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Mavi1
+  - ChildMavi
   layers:
   - Default
   - TransparentFX

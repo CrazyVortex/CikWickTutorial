@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CezaKapisi
   gerekenNesne: 3
+  gerekenCocuk: 3
   kasabaSahneAdi: SampleScene
   cikisMuzigi: {fileID: 119981270}
 --- !u!82 &119981270
