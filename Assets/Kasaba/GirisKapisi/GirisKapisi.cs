@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class TownGuard : MonoBehaviour
+public class GirisKapisi : MonoBehaviour
 {
     public TextMeshProUGUI ElenorText;
     public GameObject secimPaneli;
@@ -13,7 +13,7 @@ public class TownGuard : MonoBehaviour
     public GameObject elenor;
     public Transform elenorSpawn;
     public Transform Player;
-    public Transform CezaBolgesi;
+    public string CezaBolgesi;
 
     void Start()
     {
@@ -72,6 +72,6 @@ public class TownGuard : MonoBehaviour
         ElenorText.text = "Elenor: O zaman seçiminin sonucuna katlanıcaksın!";
         yield return new WaitForSeconds(3f);
         ElenorText.text = "";
-        Player.position = CezaBolgesi.position;
+        SceneManager.LoadScene(CezaBolgesi); //sahneye ışınlan
     }
 }
