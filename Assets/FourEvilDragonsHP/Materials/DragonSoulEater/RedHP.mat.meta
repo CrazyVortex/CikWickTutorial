@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 483bc84e9c06fb74a978565bf66ff42d
-timeCreated: 1476233020
-licenseType: Store
+guid: 93b92ee9d51170f4ca7ad61d606aea03
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 79398
-  packageName: Evil Dragon Pack HP
-  packageVersion: 1.2
-  assetPath: Assets/FourEvilDragonsHP/Materials/DragonSoulEater/RedHP.mat
-  uploadId: 422271

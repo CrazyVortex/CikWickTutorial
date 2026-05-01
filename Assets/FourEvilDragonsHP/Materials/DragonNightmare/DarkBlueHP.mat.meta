@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 8a2d1f9276d746a42925272a2372ca11
-timeCreated: 1477275757
-licenseType: Store
+guid: 35d2db98f719cbe42a82c4b1a8a7cdff
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 79398
-  packageName: Evil Dragon Pack HP
-  packageVersion: 1.2
-  assetPath: Assets/FourEvilDragonsHP/Materials/DragonNightmare/DarkBlueHP.mat
-  uploadId: 422271

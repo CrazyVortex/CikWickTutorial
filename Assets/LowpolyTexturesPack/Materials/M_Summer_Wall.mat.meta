@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 338960622876e1e4c9ba437a1872f9ce
+guid: a68f52cf1fb4224428ba665adb7d0850
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 2100000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 140717
-  packageName: Lowpoly Textures Pack
-  packageVersion: 1.0.1
-  assetPath: Assets/LowpolyTexturesPack/Materials/M_Summer_Wall.mat
-  uploadId: 803584

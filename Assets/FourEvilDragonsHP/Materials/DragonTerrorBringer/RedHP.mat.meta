@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 3cf5d93e63ceca94da9ffb40a6ed68ed
-timeCreated: 1479724678
-licenseType: Store
+guid: d71f71150409e974a94f2a49e5be614b
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 79398
-  packageName: Evil Dragon Pack HP
-  packageVersion: 1.2
-  assetPath: Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/RedHP.mat
-  uploadId: 422271
