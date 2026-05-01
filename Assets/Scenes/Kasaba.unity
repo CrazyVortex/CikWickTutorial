@@ -12960,6 +12960,7 @@ MonoBehaviour:
   elenorSpawn: {fileID: 479863579}
   Player: {fileID: 1187371841}
   CezaBolgesi: CezaBolgesi
+  Kasaba: Kasaba
 --- !u!1 &806998450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8507168822650219372, guid: 2dfc4a59caf034a4a8e743e8f27c7010, type: 3}
@@ -24868,7 +24869,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1764424977660378082, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

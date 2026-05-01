@@ -14,6 +14,7 @@ public class GirisKapisi : MonoBehaviour
     public Transform elenorSpawn;
     public Transform Player;
     public string CezaBolgesi;
+    public string Kasaba;
 
     void Start()
     {
@@ -58,7 +59,7 @@ public class GirisKapisi : MonoBehaviour
 
     public void OnYesPressed()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+        SceneManager.LoadScene(Kasaba); //sahneye ışınlan
     }
 
     public void OnNoPressed()
