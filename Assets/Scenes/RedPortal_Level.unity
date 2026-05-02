@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarHasari
   hasarMiktari: 3
-  "saldiriArali\u011Fi": 2
+  "saldiriArali\u011Fi": 1.5
 --- !u!114 &108328971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7312,7 +7312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarHasari
   hasarMiktari: 3
-  "saldiriArali\u011Fi": 2
+  "saldiriArali\u011Fi": 1.5
 --- !u!114 &597209581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25956,7 +25956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarHasari
   hasarMiktari: 3
-  "saldiriArali\u011Fi": 2
+  "saldiriArali\u011Fi": 1.5
 --- !u!114 &2141824207
 MonoBehaviour:
   m_ObjectHideFlags: 0
