@@ -12960,6 +12960,7 @@ MonoBehaviour:
   elenorSpawn: {fileID: 479863579}
   Player: {fileID: 1187371841}
   CezaBolgesi: CezaBolgesi
+  Kasaba: Kasaba
 --- !u!1 &806998450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8507168822650219372, guid: 2dfc4a59caf034a4a8e743e8f27c7010, type: 3}
