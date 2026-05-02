@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Kasaba.unity
     guid: d2809ab9b90eea7419d8d90d4c505d35
   - enabled: 1
-    path: Assets/Scenes/RedPortal_Level.unity
+    path: Assets/Scenes/RedPortal_Level 1.unity
     guid: ac7c0ac6163006743bc58f6f1b2f4e05
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

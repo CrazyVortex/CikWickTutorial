@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8859628067efe5a40943b5cfa64ababe
+labels:
+- Terrain
+AssetOrigin:
+  serializedVersion: 1
+  productId: 54072
+  packageName: Mini Nature Pack
+  packageVersion: 1.2
+  assetPath: Assets/Mini Nature Pack/Materials/Bush_01.mat
+  uploadId: 338373
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
