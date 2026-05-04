@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 925349827699606335}
   - component: {fileID: 2643849080365820253}
   m_Layer: 0
-  m_Name: Bluedoor_Trigger
+  m_Name: Greendoor_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
