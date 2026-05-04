@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &245841950 stripped
@@ -2924,7 +2924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &661789013
@@ -3360,7 +3360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &802209320
@@ -3885,7 +3885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &879961264
@@ -4109,7 +4109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &997201437 stripped
@@ -4155,7 +4155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &1037470138
@@ -5657,17 +5657,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.2664404, y: 3.6873896, z: 9.780403}
   m_Center: {x: -0.7434063, y: 1.3436948, z: -1.2154274}
---- !u!114 &1342026223 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 951402641368217434, guid: c065fea97a450564396284cfe83e14b9, type: 3}
-  m_PrefabInstance: {fileID: 9442219501806808}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1356673606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4362973278681155392, guid: 5d30ed4fefac5e54492ae5657ad8cd75, type: 3}
@@ -5755,7 +5744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &1360065033 stripped
@@ -5968,42 +5957,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1433281361 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6582540278445409148, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-  m_PrefabInstance: {fileID: 1893970621}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1433281362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433281361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae29bc72824918a439b90706dcf864ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OyuncuSaldiri
---- !u!114 &1433281363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433281361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ed246de56ad9e345bc5824584bfc172, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CanBari
-  healthSlider: {fileID: 1342026223}
-  maxCan: 150
---- !u!4 &1433281366 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-  m_PrefabInstance: {fileID: 1893970621}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1443983049
 GameObject:
   m_ObjectHideFlags: 0
@@ -6293,7 +6246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &1536610394 stripped
@@ -6760,7 +6713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1 &1636398091 stripped
@@ -6780,7 +6733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &1636398093
@@ -7359,7 +7312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
 --- !u!1001 &1796538843
@@ -7781,109 +7734,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!1001 &1893970621
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -116.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 275647827964601577, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292579711632086377, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Color.b
-      value: 0.509804
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292579711632086377, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292579711632086377, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Color.r
-      value: 0.2941177
-      objectReference: {fileID: 0}
-    - target: {fileID: 6133213409828617279, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6582540278445409148, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7382688295791899049, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7382688295791899049, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7382688295791899049, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882647804280562147, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882647804280562147, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882647804280562147, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6582540278445409148, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1433281363}
-    - targetCorrespondingSourceObject: {fileID: 6582540278445409148, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1433281362}
-  m_SourcePrefab: {fileID: 100100000, guid: c1364b2cb7dc12e4d990186294c95841, type: 3}
 --- !u!1 &1897363489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4362973278681155392, guid: 5d30ed4fefac5e54492ae5657ad8cd75, type: 3}
@@ -7971,9 +7821,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 40
   saldiriMesafesi: 4
+--- !u!1001 &1935817084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.632923
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -114.10114
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9952465
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.04345342
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.08707283
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0038016832
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582540278445409148, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
 --- !u!1001 &1961038628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8289,7 +8208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57f0477222ebe34e8dd2f0ee034a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanavarAI
-  hedef: {fileID: 1433281366}
+  hedef: {fileID: 0}
   takipMesafesi: 65
   saldiriMesafesi: 4
 --- !u!114 &2014189772
@@ -8849,7 +8768,6 @@ SceneRoots:
   - {fileID: 2043060533}
   - {fileID: 1077622308}
   - {fileID: 1690621655}
-  - {fileID: 1893970621}
   - {fileID: 544486530}
   - {fileID: 1978625244}
   - {fileID: 619877412}
@@ -8889,3 +8807,4 @@ SceneRoots:
   - {fileID: 1796538843}
   - {fileID: 3573247}
   - {fileID: 1558841242}
+  - {fileID: 1935817084}
