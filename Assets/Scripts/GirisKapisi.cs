@@ -58,7 +58,7 @@ public class GirisKapisi : MonoBehaviour
 
     public void OnYesPressed()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Kasaba");
     }
 
     public void OnNoPressed()

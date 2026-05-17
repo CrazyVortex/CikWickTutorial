@@ -2069,7 +2069,7 @@ MonoBehaviour:
   yaklasmaMesafesi: 5
   parlamaEfekti: {fileID: 1652573161}
   kurtarmaSesi: {fileID: 374426071}
-  cocukID: ChidMavi
+  cocukID: ChildMavi
 --- !u!1 &431441542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 174418, guid: 36c38a65d57de7d4a9a582f9ee857701, type: 3}
@@ -7858,27 +7858,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9952465
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.04345342
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.08707283
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0038016832
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275647827964601577, guid: 8dc44e0185efb6d479f3fd26f1dfc577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

@@ -8,6 +8,9 @@ TagManager:
   - Mavi1
   - ChildMavi
   - Kirmizi1
+  - ChildYesil
+  - ChildKirmizi
+  - Yesil1
   layers:
   - Default
   - TransparentFX

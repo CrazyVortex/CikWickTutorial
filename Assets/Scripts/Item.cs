@@ -23,7 +23,6 @@ public class Item : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(ses.clip, transform.position);
             }
-
             // GameManager fonksiyonunu çağırmak için sahnede GameManager'ı buluyoruz
             GameManager gm = Object.FindAnyObjectByType<GameManager>();
             if (gm != null)

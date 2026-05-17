@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CezaKapisi
   gerekenNesne: 3
   gerekenCocuk: 3
-  kasabaSahneAdi: SampleScene
+  kasabaSahneAdi: Kasaba
   cikisMuzigi: {fileID: 119981270}
 --- !u!82 &119981270
 AudioSource:
@@ -509,6 +509,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &450744090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 450744091}
+  - component: {fileID: 450744093}
+  - component: {fileID: 450744092}
+  m_Layer: 0
+  m_Name: Greendoor_Trigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450744091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450744090}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.019, y: -0.5, z: -2.14}
+  m_LocalScale: {x: 1, y: 1, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 790732060}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &450744092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450744090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc732de2befcc0246ae7c68972e93d43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Portal
+  hedefSahne: GreenPortal_Level
+--- !u!65 &450744093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450744090}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.0019996, z: 0.93542194}
+  m_Center: {x: 0, y: 0.5193714, z: 0.03228903}
 --- !u!1 &518631986
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +909,8 @@ Transform:
   m_LocalPosition: {x: -4, y: 1.75, z: 6}
   m_LocalScale: {x: 2, y: 3, z: 0.2}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 450744091}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &822431721
@@ -1409,6 +1477,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.6054232, y: 2.1427946, z: 2.7657254}
   m_Center: {x: 0.25919524, y: 1.0584016, z: 0.2539092}
+--- !u!114 &1783386513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783386499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 790918a383bd8c0458a857a5d21057d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::iyiBuyucuDiyalog
+  diyalogMetni: {fileID: 1933139140}
+  mesaj: "Elenor g\xFC\xE7lenmek i\xE7in \xE7ocuklar\u0131 ka\xE7\u0131r\u0131p kap\u0131lar\u0131n
+    ard\u0131na hapsetti. L\xFCtfen onlar\u0131 kurtar!"
 --- !u!1 &1933139138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,10 +1524,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1018175198}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 841.8, y: 22.300049}
-  m_SizeDelta: {x: 1000, y: 400}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -250, y: 200}
+  m_SizeDelta: {x: 500, y: 400}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1933139140
 MonoBehaviour:
@@ -1493,15 +1576,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1733,6 +1816,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5144800408524095462, guid: b3f3d35cf8f64c140a072eede1abacbd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1783386510}
+    - targetCorrespondingSourceObject: {fileID: 5144800408524095462, guid: b3f3d35cf8f64c140a072eede1abacbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1783386513}
   m_SourcePrefab: {fileID: 100100000, guid: b3f3d35cf8f64c140a072eede1abacbd, type: 3}
 --- !u!1001 &1286276438170992624
 PrefabInstance:
@@ -1742,6 +1828,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2785579271012190926, guid: 617af002bb8a82f4a82ad9ef40f7d16c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3124470285803384527, guid: 617af002bb8a82f4a82ad9ef40f7d16c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1852,6 +1942,10 @@ PrefabInstance:
     - target: {fileID: 2643849080365820253, guid: c6df0d229b4461c46abeac5272f54520, type: 3}
       propertyPath: m_Center.z
       value: 0.03228903
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466606034727190391, guid: c6df0d229b4461c46abeac5272f54520, type: 3}
+      propertyPath: m_Name
+      value: Bluedoor_Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 8662947778773805258, guid: c6df0d229b4461c46abeac5272f54520, type: 3}
       propertyPath: m_Name
